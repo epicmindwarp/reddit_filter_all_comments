@@ -6,13 +6,13 @@ import config as config
 
 BOT_AUTHOR      = 'epicmindwarp'
 
-SUB_NAME        = 'AskUK'
+SUB_NAME        = ''
 USER_AGENT_NAME = f'{SUB_NAME} Bot v0.01_alpha'
 TXT_FILE        = 'redditors_messaged.txt'
 
 POST_TITLE      = 'post_title'  # This post title is used to identify which post is being filtered for comments
 
-MSG_SUBJECT     = 'msg_subject'
+MSG_SUBJECT     = 'message_subject'
 MSG_BODY        = '''multi_line_msg_body'''
 
 def current_time():
