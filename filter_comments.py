@@ -7,17 +7,13 @@ import config as config
 BOT_AUTHOR      = 'epicmindwarp'
 
 SUB_NAME        = 'AskUK'
-USER_AGENT_NAME = f'{SUB_NAME} Bot to Moderate COVID-19 Discussion'
+USER_AGENT_NAME = f'{SUB_NAME} Bot v0.01_alpha'
 TXT_FILE        = 'redditors_messaged.txt'
 
-POST_TITLE      = '[COVID-19] Coronavirus Discussion Thread'
+POST_TITLE      = 'post_title'  # This post title is used to identify which post is being filtered for comments
 
-MSG_SUBJECT     = '/r/AskUK COVID-19 Discussion Thread comment under review.'
-MSG_BODY        = '''Your comment was automatically filtered, and is subject to moderation.
-
-It may not necessarily be approved - so please don't post again.
-
-Thank you.'''
+MSG_SUBJECT     = 'msg_subject'
+MSG_BODY        = '''multi_line_msg_body'''
 
 def current_time():
     return dt.datetime.today().replace(microsecond=0)
