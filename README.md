@@ -8,13 +8,13 @@ The script runs from this file. Edit the following variables with your own detai
 BOT_AUTHOR      = 'epicmindwarp'
 
 SUB_NAME        = ''    
-USER_AGENT_NAME = f'{SUB_NAME} Bot to Moderate COVID-19 Discussion'    
+USER_AGENT_NAME = f'{SUB_NAME} Bot v0.01_alpha'    
 TXT_FILE        = 'redditors_messaged.txt'
 
 POST_TITLE      = 'post_title'
 
 MSG_SUBJECT     = 'message_subject'    
-MSG_BODY        = '''message_body'''
+MSG_BODY        = '''multi_line_msg_body'''
 
 The details in the above are used in the script to ensure it runs smoothly. The post title is used to identify from which post the comments should automatically be removed from.
 
