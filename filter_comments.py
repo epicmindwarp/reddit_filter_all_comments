@@ -109,8 +109,11 @@ while True:
                 author = comment.author
                 body = '\t' + comment.body.replace('\n', '\n\t')
 
-                print('\n', comment, ' - ', author ,' - ', title)
-                print(body)
+                try:
+                    print('\n', comment, ' - ', author ,' - ', title)
+                    print(body)
+                except Exception as e:
+                    print(f'\t# Error - {e}')
 
                 # Remove the comment
                 comment.mod.remove(spam=False)
