@@ -6,7 +6,7 @@
 
 Tried and tested on:
 
-Windows 10 and Python 3.7.4
+Windows 10 and Python 3.7.4    
 Raspberry Pi 3B+ running Raspian
 
 ### filter_comments.py
