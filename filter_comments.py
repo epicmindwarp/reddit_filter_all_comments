@@ -73,7 +73,10 @@ def check_username_in_file(username):
 
     # Loop through all lines
     for x in f:
-        
+
+        # Remove the line break tag, to allow for comparison
+        x = x.replace('\n', '')
+
         # If username in file
         if x == username.name:
             
