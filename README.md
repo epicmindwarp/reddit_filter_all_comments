@@ -65,13 +65,13 @@ The script will continue to run again after 60 seconds.
 
 BOT_AUTHOR      = 'epicmindwarp'
 
-SUB_NAME        = 'AskUK'
-USER_AGENT_NAME = f'{SUB_NAME} Bot to Moderate COVID-19 Discussion'
+SUB_NAME        = 'AskUK'    
+USER_AGENT_NAME = f'{SUB_NAME} Bot to Moderate COVID-19 Discussion'    
 TXT_FILE        = 'redditors_messaged.txt'
 
 POST_TITLE      = '[COVID-19] Coronavirus Discussion Thread'
 
-MSG_SUBJECT     = '/r/AskUK COVID-19 Discussion Thread comment under review.'
+MSG_SUBJECT     = '/r/AskUK COVID-19 Discussion Thread comment under review.'    
 MSG_BODY        = '''Your comment was automatically filtered, and is subject to moderation.
 
 It may not necessarily be approved - so please don't post again.
