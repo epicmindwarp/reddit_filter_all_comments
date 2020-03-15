@@ -7,7 +7,9 @@
 Tried and tested on:
 
 Windows 10 and Python 3.7.4    
-Raspberry Pi 3B+ running Raspian
+Raspberry Pi 3B+ running Raspian     
+praw 6.3.1
+
 
 ### filter_comments.py
 The script runs from this file. Edit the following variables with your own details
